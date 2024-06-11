@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const BlogSection = () => {
+const ArticleSection = () => {
   return (
     <>
       <section className=" mt-12 ">
@@ -35,4 +35,4 @@ const BlogSection = () => {
   );
 };
 
-export default BlogSection;
+export default ArticleSection;

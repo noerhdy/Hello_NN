@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import { ArrowUpRight } from "lucide-react";
 import "../index.css";
-import { arrowHover } from "@/components/ProjectSection";
+import { arrowHover } from "@/components/Fragment/Home/ProjectSection";
 export const ctaSecond =
   "group flex flex-row  justify-between rounded-md   hover:bg-neutral-200  dark:hover:bg-zinc-800 cursor-pointer py-2";
 

@@ -1,13 +1,15 @@
 import "../index.css";
-import { ThemeProvider } from "@/components/theme-provider";
-import HeaderSection from "../components/HeaderSection.jsx";
-import HeroSection from "../components/HeroSection";
-import BlogSection from "../components/BlogSection";
-import ProjectSection from "../components/ProjectSection";
 import NavDoc from "@/components/NavDoc";
 import { ReactLenis } from "lenis/react";
+import {
+  ArticleSection,
+  HeaderSection,
+  HeroSection,
+  ProjectSection,
+} from "../Fragment/IndexHome";
+import { ThemeProvider } from "../theme-provider";
 
-function HomePage() {
+function HomeLayout() {
   return (
     <>
       <ReactLenis root>
@@ -17,7 +19,7 @@ function HomePage() {
               <HeaderSection />
               <HeroSection />
               <ProjectSection />
-              <BlogSection />
+              <ArticleSection />
               <NavDoc />
             </div>
           </div>
@@ -27,4 +29,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default HomeLayout;

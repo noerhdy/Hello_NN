@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export const ctaFirst =
   "group text-start flex-col bg-gray-100 hover:bg-neutral-200 dark:bg-zinc-900 dark:hover:bg-zinc-800 p-4 h-fit px-4 rounded-md overflow-hidden dark:text-slate-50 drop-shadow";
 
-const IndexCta = (props) => {
+const IndexCard = (props) => {
   const { titleProject, textProject, dot, link, dotTitle } = props;
   return (
     <div>
@@ -20,4 +20,4 @@ const IndexCta = (props) => {
   );
 };
 
-export default IndexCta;
+export default IndexCard;
