@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ReactLenis } from "lenis/react";
 import { ThemeProvider } from "@/components/theme-provider";
+import ArticlePage from "@/pages/ArticlePage/ArticlePage";
 import ArticleFirst from "@/pages/ArticlePage/ArticleFirst";
 import ScrollToTop from "@/components/ScrollToTop";
 import {
@@ -27,7 +28,9 @@ const RoutesConfig = () => {
               <Route path="/project/all-project" element={<AllProject />} />
               <Route path="/project/zen" element={<SecondPage />} />
             </Route>
-            <Route path="/article/first" element={<ArticleFirst />} />
+            <Route path="/article" element={<ArticlePage />}>
+              <Route path="/article/first" element={<ArticleFirst />} />
+            </Route>
           </Routes>
         </ThemeProvider>
       </ReactLenis>

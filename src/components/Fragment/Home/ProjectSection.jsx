@@ -13,7 +13,7 @@ const ProjectSection = () => {
           <CardProject />
         </div>
         {/* Button link */}
-        <CtaPage link="/project/all-project" textCta="All projects" />
+        {/* <CtaPage link="/project/all-project" textCta="All projects" /> */}
       </section>
     </>
   );

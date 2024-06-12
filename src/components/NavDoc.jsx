@@ -44,7 +44,7 @@ const NavDoc = () => {
     },
     {
       name: "Github",
-      url: "https://github.com/noerhdt",
+      url: "https://github.com/noerhdy",
       src: "/img/app/git.webp",
     },
     { name: "X", url: "https://twitter.com/Noer1114", src: "/img/app/x.webp" },
