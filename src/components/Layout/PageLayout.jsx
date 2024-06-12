@@ -13,7 +13,7 @@ const PageLayout = (props) => {
             <div className="col-start-1 lg:col-end-5 grid-auto lg:col-start-2 col-end-6 mx-4 ">
               <Cta textCta="Back" link="/" />
               <div className="flex flex-col space-y-8 my-20 mx-0 md:mx-10  ">
-                <h3 className="font-medium text-4xl">{title}</h3>
+                <h3 className="font-medium text-4xl cursor-default">{title}</h3>
                 <SideDetail
                   nameLink={nameLink}
                   date={date}

@@ -1,0 +1,25 @@
+import React from "react";
+import Cta from "../Elements/CTA/Cta";
+
+const ArticleLayout = (props) => {
+  const { children, title, imgpageUrl } = props;
+  return (
+    <article className="py-20 ">
+      <div className=" grid grid-cols-5  ">
+        <div className="col-start-1 lg:col-end-5 grid-auto lg:col-start-2 col-end-6 mx-4 ">
+          <Cta textCta="Back" link="/" />
+          <div className="flex flex-col space-y-8 my-20 mx-0 md:mx-10  ">
+            <h3 className="font-medium text-4xl cursor-default">{title}</h3>
+            <img
+              className="aspect-video object-cover rounded-md bg-cover bg-center "
+              src={imgpageUrl}
+            ></img>
+            {children}
+          </div>
+        </div>
+      </div>
+    </article>
+  );
+};
+
+export default ArticleLayout;

@@ -8,9 +8,11 @@ const CtaLink = (props) => {
     window.open(url, "_blank", "noopener,noreferrer");
   };
   return (
-    <button onClick={() => handleClick(link)} className="flex group space-x-1">
-      <h3 className="text-zinc-100">{nameLink}</h3>
-      <ArrowUpRight className={`${arrowHover}`} />
+    <button onClick={() => handleClick(link)} className="flex group space-x-1 ">
+      <h3 className="dark:text-zinc-100 text-black ">{nameLink}</h3>
+      <ArrowUpRight
+        className={`text-black dark:dark:text-zinc-100 ${arrowHover}`}
+      />
     </button>
   );
 };

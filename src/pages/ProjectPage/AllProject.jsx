@@ -2,8 +2,6 @@ import React from "react";
 import "../index.css";
 import Cta from "@/components/Elements/CTA/Cta";
 import CardAll from "@/components/Fragment/CardProject/CardAll";
-export const ctaSecond =
-  "group flex flex-row  justify-between rounded-md   hover:bg-neutral-200  dark:hover:bg-zinc-800 cursor-pointer py-2";
 
 const AllProject = () => {
   return (

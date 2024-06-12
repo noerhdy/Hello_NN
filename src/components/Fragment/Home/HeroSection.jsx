@@ -1,7 +1,7 @@
 import { marqImage } from "@/constants";
 import Marquee from "react-fast-marquee";
 
-const HeroSection = () => {
+const Hero = () => {
   return (
     <section className="mx-4 mt-12 ">
       <div className="grid grid-cols-4 ">
@@ -38,4 +38,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default Hero;

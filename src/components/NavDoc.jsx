@@ -40,7 +40,7 @@ const NavDoc = () => {
     {
       name: "Linkedin",
       url: "https://www.linkedin.com/in/nur-hidayat21/",
-      src: "/img/app/li.webp",
+      src: "/img/app/in.webp",
     },
     {
       name: "Github",
