@@ -7,11 +7,9 @@ const SecondPage = () => {
       title="Zen"
       nameLink="Zen"
       date="2024"
-      link="https://zen-chi-plum.vercel.app/"
+      link="https://zen-layout.vercel.app/"
       imgpageUrl="/img/article/sec2.webp"
-      description="The first time I touched the JavaScript library, ReactJS. I was trying to create a website landing page with a simple design layout using the
-Tailwindcss framework. This is my first time using reactJS and
-tailwindcss."
+      description="In this project, I tried to improve myself by using a design system methodology that incorporates chemical elements. The method is known as Atomic Design. The layout concept of this project is intended for a portfolio website, photo gallery, or personal blog."
     />
   );
 };

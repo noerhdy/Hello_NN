@@ -19,8 +19,8 @@ const CardProject = () => {
         dotTitle="Javascript"
       />
       <IndexCard
-        titleProject="zen"
-        textProject="layout sample"
+        titleProject="norterra"
+        textProject="Blog sample"
         link="/project/zen"
         dot=" bg-yellow-500"
         dotTitle="Javascript"
